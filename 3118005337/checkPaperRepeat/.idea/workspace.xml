@@ -8,8 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="376">
+              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,7 +304,7 @@
       <workItem from="1600698448789" duration="842000" />
       <workItem from="1600749135033" duration="2471000" />
       <workItem from="1600759194056" duration="9884000" />
-      <workItem from="1600837112169" duration="2462000" />
+      <workItem from="1600837112169" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="feat:新建一个学号为名的文件夹，并初始化项目">
       <created>1600698670863</created>
@@ -336,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600787679858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(App):删除多余的sout系统输出，添加输出答案文件功能">
+      <created>1600839827476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600839827476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15659000" />
+    <option name="totallyTimeSpent" value="16515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -390,7 +395,8 @@
     <MESSAGE value="feat(jieba-analysis):Maven添加jieba-analysis依赖，并添加tfidf算法提取关键词的类" />
     <MESSAGE value="feat(CalculateCosSim):添加计算余弦相似度的工具类，简单使用两句话测试" />
     <MESSAGE value="feat(util):添加将txt文件中的文本转换为String类型的静态方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(util):添加将txt文件中的文本转换为String类型的静态方法" />
+    <MESSAGE value="feat(App):删除多余的sout系统输出，添加输出答案文件功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(App):删除多余的sout系统输出，添加输出答案文件功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
@@ -463,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="376">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

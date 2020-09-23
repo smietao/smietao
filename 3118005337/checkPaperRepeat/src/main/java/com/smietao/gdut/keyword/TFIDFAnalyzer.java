@@ -8,14 +8,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.*;
 
-/**
- * @author Tom Qian
- * @email tomqianmaple@outlook.com
- * @github https://github.com/bluemapleman
- * @date Oct 20, 2018
- * tfidf算法原理参考：http://www.cnblogs.com/ywl925/p/3275878.html
- * 部分实现思路参考jieba分词：https://github.com/fxsjy/jieba
- */
 public class TFIDFAnalyzer
 {
 	
@@ -163,15 +155,6 @@ public class TFIDFAnalyzer
 			e.printStackTrace();
 		}
 	}
-	
-	public static void main(String[] args)
-	{
-		String content="孩子上了幼儿园 安全防拐教育要做好";
-		int topN=5;
-		TFIDFAnalyzer tfidfAnalyzer=new TFIDFAnalyzer();
-		List<Keyword> list=tfidfAnalyzer.analyze(content,topN);
-		for(Keyword word:list)
-			System.out.print(word.getName()+":"+word.getTfidfvalue()+",");
-	}
+
 }
 
