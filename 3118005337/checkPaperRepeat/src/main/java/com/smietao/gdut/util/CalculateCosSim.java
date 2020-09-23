@@ -13,7 +13,6 @@ public class CalculateCosSim {
         for (Keyword oriKeyword : originalList) {
             for (Keyword plaKeyword : plagiarizeList) {
                 if (oriKeyword.getName().equals(plaKeyword.getName())) {
-                    System.out.println("相同的关键词为" + oriKeyword.getName() );
                     double oriTfidfvalue = oriKeyword.getTfidfvalue();
                     double plaTfidfvalue = plaKeyword.getTfidfvalue();
                     // 如果高频词相等，计算

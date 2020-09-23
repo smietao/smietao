@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8edcebdb-b183-4916-a174-fc75f52fbb48" name="Default Changelist" comment="">
+    <list default="true" id="8edcebdb-b183-4916-a174-fc75f52fbb48" name="Default Changelist" comment="feat(CaculateCosSim):Maven添加jieba-analysis依赖，并添加tfidf算法提取关键词的类">
       <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/smietao.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CaculateCosSim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/idf_dict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/stop_words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +37,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CaculateCosSim.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+            <state relative-caret-position="351">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/ReadTxt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="1215">
               <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
             </state>
           </provider>
@@ -65,8 +72,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="1836">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="756">
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
@@ -99,8 +109,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CaculateCosSim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/ReadTxt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java" />
       </list>
     </option>
   </component>
@@ -124,14 +136,15 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +232,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -244,6 +258,7 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smietao.gdut.App" />
       <module name="checkPaperRepeat" />
+      <option name="PROGRAM_PARAMETERS" value="D:/org.txt D:/org_add.txt D:/ans.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smietao.gdut.*" />
@@ -267,6 +282,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.TFIDFAnalyzer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -286,7 +305,8 @@
       <updated>1600698447475</updated>
       <workItem from="1600698448789" duration="842000" />
       <workItem from="1600749135033" duration="2471000" />
-      <workItem from="1600759194056" duration="3434000" />
+      <workItem from="1600759194056" duration="9884000" />
+      <workItem from="1600837112169" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="feat:新建一个学号为名的文件夹，并初始化项目">
       <created>1600698670863</created>
@@ -295,16 +315,38 @@
       <option name="project" value="LOCAL" />
       <updated>1600698670863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(jieba-analysis):Maven添加jieba-analysis依赖，并添加tfidf算法提取关键词的类">
+      <created>1600763074913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600763074913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(CalculateCosSim):添加计算余弦相似度的工具类，简单使用两句话测试">
+      <created>1600763243393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600763243393</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(util):添加将txt文件中的文本转换为String类型的静态方法">
+      <created>1600787679858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600787679858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6747000" />
+    <option name="totallyTimeSpent" value="15659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,11 +357,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -342,8 +384,13 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat:新建一个学号为名的文件夹，并初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:新建一个学号为名的文件夹，并初始化项目" />
+    <MESSAGE value="feat(jieba-analysis):Maven添加jieba-analysis依赖，并添加tfidf算法提取关键词的类" />
+    <MESSAGE value="feat(CalculateCosSim):添加计算余弦相似度的工具类，简单使用两句话测试" />
+    <MESSAGE value="feat(util):添加将txt文件中的文本转换为String类型的静态方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(util):添加将txt文件中的文本转换为String类型的静态方法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
@@ -362,32 +409,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/ReadTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="1836">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="756">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CaculateCosSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        <state relative-caret-position="351">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -397,7 +464,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -407,6 +474,29 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -419,6 +509,17 @@
         </settings>
       </state>
       <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
