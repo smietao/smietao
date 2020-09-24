@@ -9,11 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edcebdb-b183-4916-a174-fc75f52fbb48" name="Default Changelist" comment="">
+    <list default="true" id="8edcebdb-b183-4916-a174-fc75f52fbb48" name="Default Changelist" comment="fix(TFIDF):分词器compare方法逻辑修改">
+      <change afterPath="$PROJECT_DIR$/src/checkPaperRepeat.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="295">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="e#432#433#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
@@ -85,6 +83,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -203,63 +210,7 @@
             <path>
               <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
               <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdut" type="462c0819:PsiDirectoryNode" />
-              <item name="keyword" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdut" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkPaperRepeat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkPaperRepeat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdut" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +223,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/jprofiler9/bin/jprofiler.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -292,6 +243,7 @@
       <recent name="com.smietao.gdut.keyword" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\smietao\3118005337\checkPaperRepeat\src" />
       <recent name="D:\ideaProjects\smietao\3118005337\checkPaperRepeat\src\main\resources" />
     </key>
   </component>
@@ -307,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.com.smietao.gdut in checkPaperRepeat">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smietao.gdut.App" />
       <module name="checkPaperRepeat" />
@@ -383,15 +335,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.smietao.gdut in checkPaperRepeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="checkPaperRepeat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smietao.gdut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smietao.gdut" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.TFIDFAnalyzer" />
       <item itemvalue="JUnit.AppTest.testTfidfAnalyzer" />
       <item itemvalue="JUnit.AppTest.testTxtRead" />
       <item itemvalue="JUnit.AppTest.testCalculate" />
+      <item itemvalue="JUnit.com.smietao.gdut in checkPaperRepeat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.smietao.gdut in checkPaperRepeat" />
         <item itemvalue="JUnit.AppTest.testCalculate" />
         <item itemvalue="JUnit.AppTest.testTxtRead" />
         <item itemvalue="JUnit.AppTest.testTfidfAnalyzer" />
@@ -415,7 +383,7 @@
       <workItem from="1600837112169" duration="5722000" />
       <workItem from="1600867900476" duration="2048000" />
       <workItem from="1600943241836" duration="637000" />
-      <workItem from="1600944346302" duration="6937000" />
+      <workItem from="1600944346302" duration="8528000" />
     </task>
     <task id="LOCAL-00001" summary="feat:新建一个学号为名的文件夹，并初始化项目">
       <created>1600698670863</created>
@@ -473,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600953386227</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(AppTest):添加单元测试代码">
+      <created>1600953407768</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600953407768</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix(TFIDF):分词器compare方法逻辑修改">
+      <created>1600953448336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600953448336</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -495,15 +477,20 @@
     <history-entry file="AppTest_testCalculate - 2020.09.24 at 19h 51m 35s.xml">
       <configuration name="AppTest.testCalculate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_smietao_gdut_in_checkPaperRepeat - 2020.09.24 at 21h 24m 48s.xml">
+      <configuration name="com.smietao.gdut in checkPaperRepeat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_smietao_gdut_in_checkPaperRepeat - 2020.09.24 at 21h 24m 57s.xml">
+      <configuration name="com.smietao.gdut in checkPaperRepeat" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28541000" />
+    <option name="totallyTimeSpent" value="30132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,7 +501,7 @@
       <window_info anchor="bottom" id="JProfiler" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,10 +512,11 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Codota" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -552,7 +540,14 @@
     <MESSAGE value="fix(keyword):关键词相关类删除部分注释" />
     <MESSAGE value="feat(exception):添加自定义异常；在文本内容为空以及命令行参数不为3个时抛出" />
     <MESSAGE value="fix(CalculateCosSim):关键词全不同的情况下返回0" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(CalculateCosSim):关键词全不同的情况下返回0" />
+    <MESSAGE value="feat(AppTest):添加单元测试代码" />
+    <MESSAGE value="fix(TFIDF):分词器compare方法逻辑修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(TFIDF):分词器compare方法逻辑修改" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/checkPaperRepeat$com_smietao_gdut_in_checkPaperRepeat.ic" NAME="com.smietao.gdut in checkPaperRepeat Coverage Results" MODIFIED="1600953894427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.smietao.gdut.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
@@ -612,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -645,26 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/ReadTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/TFIDFAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -678,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/keyword/Keyword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
@@ -689,10 +657,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/CalculateCosSim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smietao/gdut/util/ReadTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/smietao/gdut/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
         </state>
       </provider>
     </entry>
