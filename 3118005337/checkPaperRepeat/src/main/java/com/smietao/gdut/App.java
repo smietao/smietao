@@ -1,5 +1,6 @@
 package com.smietao.gdut;
 
+import com.smietao.gdut.exception.CustomException;
 import com.smietao.gdut.keyword.Keyword;
 import com.smietao.gdut.keyword.TFIDFAnalyzer;
 import com.smietao.gdut.util.CalculateCosSim;
@@ -15,7 +16,7 @@ public class App {
         int length = args.length;
         if (length != 3) {
             // 参数不是三个，说明命令入参错误
-            throw new RuntimeException("命令行入参数量有误！");
+            throw new CustomException("命令行入参数量有误！");
         }
         // 原文绝对路径
         String orgPath = args[0];
@@ -29,17 +30,22 @@ public class App {
         // 读取txt文件中的内容 转化为String类型
         String original = ReadTxt.txt2String(orgFile).trim();
         String plagiarize = ReadTxt.txt2String(orgAddFile).trim();
+
+        if (original.length() == 0) {
+            throw new CustomException("原文文本内容为空！");
+        }
+        if (plagiarize.length() == 0) {
+            throw new CustomException("抄袭文文本内容为空！");
+        }
         // 定义关键词个数
         int topN = 20;
         // 提取文章中的20个关键词和词频
         TFIDFAnalyzer tfidfAnalyzer = new TFIDFAnalyzer();
         List<Keyword> originalList = tfidfAnalyzer.analyze(original, topN);
         List<Keyword> plagiarizeList = tfidfAnalyzer.analyze(plagiarize, topN);
-
         // 输出答案到结果文件中
         FileOutputStream fos = new FileOutputStream(outPutFile);
         OutputStreamWriter dos = new OutputStreamWriter(fos);
-        // 计算重复率
         Double repetitiveRate = CalculateCosSim.calculateCosineSimilarity(originalList, plagiarizeList);
         // 精确到小数点后2位
         DecimalFormat format = new DecimalFormat("0.00");
