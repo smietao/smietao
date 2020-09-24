@@ -1,6 +1,6 @@
 package com.smietao.gdut.keyword;
 
-public class Keyword implements Comparable<Keyword>
+public class Keyword
 {
 	private double tfidfvalue;
 	private String name;
@@ -44,15 +44,6 @@ public class Keyword implements Comparable<Keyword>
 		this.name=name;
 		// tfidf值只保留3位小数
 		this.tfidfvalue=(double)Math.round(tfidfvalue*10000)/10000;
-	}
-	
-	/**
-	 * 为了在返回tdidf分析结果时，可以按照值的从大到小顺序返回，故实现Comparable接口
-	 */
-	@Override
-	public int compareTo(Keyword o)
-	{
-		return this.tfidfvalue-o.tfidfvalue>0?-1:1;
 	}
 
 	/**

@@ -42,7 +42,17 @@ public class TFIDFAnalyzer
 				keywordList.add(new Keyword(word,idfMedian*tfMap.get(word)));
 		}
 		
-		Collections.sort(keywordList);
+		Collections.sort(keywordList, new Comparator<Keyword>() {
+			@Override
+			public int compare(Keyword o1, Keyword o2) {
+				double tfidfvalue1 = o1.getTfidfvalue();
+				double tfidfvalue2 = o2.getTfidfvalue();
+				if (tfidfvalue1 == tfidfvalue2) {
+					return 0;
+				}
+				return tfidfvalue1 - tfidfvalue2 > 0 ? 1 : -1;
+			}
+		});
 		
 		if(keywordList.size()>topN) {
 			int num=keywordList.size()-topN;
