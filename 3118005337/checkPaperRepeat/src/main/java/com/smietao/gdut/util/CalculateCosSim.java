@@ -24,6 +24,9 @@ public class CalculateCosSim {
                 }
             }
         }
+        if (v1 == 0 || v2 == 0) {
+            return 0.0;
+        }
         return v / Math.sqrt(v1 * v2);
     }
 }
